@@ -36,7 +36,7 @@ class StickyNote {
         this.sticky.setAttribute('id', `sticky${++memory.stickyCount}`)
         this.sticky.style.top = '0px';
         this.sticky.style.left = '50%';
-        // this.sticky.scrollIntoView();
+        // this.sticky.scrollIgit statusntoView();
         //add entry into memoryOfNotes
         memoryOfNotes[memory.stickyCount] = this.sticky;
 
