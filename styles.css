@@ -3,18 +3,44 @@
 } */
 
 #stickyNoteButton {
+    color: black;
+    font-weight: bold;
     position: fixed;
     top: 0;
+    left: calc(50% - (width/2));
     z-index: 999;
-    background-color: aqua;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    padding: 5px;
+    border-radius: 20%;
 }
 
 .stickyNote {
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
     background-color: orange;
-    width: 70px;
-    height: 70px;
-    z-index: 999 !important;
-    top: 0px;
-    left: 200px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    z-index: 998;
     position: absolute;
+    inline-size: 100px;
+    overflow-wrap: break-word;
+    overflow-y: scroll;
+}
+
+/*.edit {
+    width: 10px;
+    height: 10px;
+    color: white;
+    z-index: 999;
+    background-color: red;
+    border-radius: 10px;
+}*/
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color: black;
+    overflow-y: scroll;
 }
