@@ -1,0 +1,2 @@
+// manifest version 3 now
+// I have no idea about version 0.1.0 "https://developer.chrome.com/docs/extensions/mv3/manifest/version/"
